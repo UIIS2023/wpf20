@@ -1,0 +1,15 @@
+﻿<Window x:Class="AutobuskaStanica.TipKarte"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutobuskaStanica"
+        mc:Ignorable="d"
+            Title="Dodaj / Izmeni Tip Karte" Height="173" Width="301">
+    <Grid>
+        <Label Content="Naziv tipa:" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="150,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="62,97,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click" RenderTransformOrigin="0.528,-3.565"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="210,97,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Autobus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Blagajnik.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Garaza.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Karta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Kupac.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Polazak.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Rezervacija.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Status.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TipKarte.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Zona.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Autobus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Blagajnik.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Garaza.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Karta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Kupac.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Polazak.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Rezervacija.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Status.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TipKarte.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Zona.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

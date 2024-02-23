@@ -1,0 +1,24 @@
+﻿<Window x:Class="AutobuskaStanica.Autobus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutobuskaStanica"
+        mc:Ignorable="d"
+            Title="Dodaj / Izmeni Autobus" Height="250" Width="300">
+<Grid>
+    <Label Content="Vrsta:" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top"/>
+    <Label Content="Putanja:" HorizontalAlignment="Left" Margin="40,60,0,0" VerticalAlignment="Top"/>
+    <Label Content="Prevoznik:" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top"/>
+    <Label Content="Garaza:" HorizontalAlignment="Left" Margin="40,120,0,0" VerticalAlignment="Top"/>
+    <Label Content="Polazak" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top"/>
+
+    <TextBox x:Name="txtVrsta" HorizontalAlignment="Left" Margin="150,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    <TextBox x:Name="txtPutanja" HorizontalAlignment="Left" Margin="150,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    <TextBox x:Name="txtPrevoznik" HorizontalAlignment="Left" Margin="150,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    <ComboBox x:Name="cbGaraza" HorizontalAlignment="Left" Margin="150,125,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="Naziv" SelectedValuePath="KlubID"/>
+    <ComboBox x:Name="cbPolazak" HorizontalAlignment="Left" Margin="150,155,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="Naziv" SelectedValuePath="KlubID"/>
+    <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="60,180,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+    <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="200,180,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+</Grid>
+</Window>
